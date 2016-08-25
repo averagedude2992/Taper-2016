@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		155993E01D6EBB9C00E8BA7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155993DF1D6EBB9C00E8BA7E /* AppDelegate.swift */; };
+		155993E21D6EBB9C00E8BA7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155993E11D6EBB9C00E8BA7E /* ViewController.swift */; };
+		155993E51D6EBB9C00E8BA7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 155993E31D6EBB9C00E8BA7E /* Main.storyboard */; };
+		155993E71D6EBB9C00E8BA7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 155993E61D6EBB9C00E8BA7E /* Assets.xcassets */; };
+		155993EA1D6EBB9C00E8BA7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 155993E81D6EBB9C00E8BA7E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		155993DC1D6EBB9B00E8BA7E /* Taper-2016.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Taper-2016.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		155993DF1D6EBB9C00E8BA7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		155993E11D6EBB9C00E8BA7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		155993E41D6EBB9C00E8BA7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		155993E61D6EBB9C00E8BA7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		155993E91D6EBB9C00E8BA7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		155993EB1D6EBB9C00E8BA7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		155993D91D6EBB9B00E8BA7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		155993D31D6EBB9B00E8BA7E = {
+			isa = PBXGroup;
+			children = (
+				155993DE1D6EBB9C00E8BA7E /* Taper-2016 */,
+				155993DD1D6EBB9B00E8BA7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		155993DD1D6EBB9B00E8BA7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				155993DC1D6EBB9B00E8BA7E /* Taper-2016.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		155993DE1D6EBB9C00E8BA7E /* Taper-2016 */ = {
+			isa = PBXGroup;
+			children = (
+				155993DF1D6EBB9C00E8BA7E /* AppDelegate.swift */,
+				155993E11D6EBB9C00E8BA7E /* ViewController.swift */,
+				155993E31D6EBB9C00E8BA7E /* Main.storyboard */,
+				155993E61D6EBB9C00E8BA7E /* Assets.xcassets */,
+				155993E81D6EBB9C00E8BA7E /* LaunchScreen.storyboard */,
+				155993EB1D6EBB9C00E8BA7E /* Info.plist */,
+			);
+			path = "Taper-2016";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		155993DB1D6EBB9B00E8BA7E /* Taper-2016 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 155993EE1D6EBB9C00E8BA7E /* Build configuration list for PBXNativeTarget "Taper-2016" */;
+			buildPhases = (
+				155993D81D6EBB9B00E8BA7E /* Sources */,
+				155993D91D6EBB9B00E8BA7E /* Frameworks */,
+				155993DA1D6EBB9B00E8BA7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Taper-2016";
+			productName = "Taper-2016";
+			productReference = 155993DC1D6EBB9B00E8BA7E /* Taper-2016.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		155993D41D6EBB9B00E8BA7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = FairSkiesTechnologies;
+				TargetAttributes = {
+					155993DB1D6EBB9B00E8BA7E = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = JWW47KLMX2;
+					};
+				};
+			};
+			buildConfigurationList = 155993D71D6EBB9B00E8BA7E /* Build configuration list for PBXProject "Taper-2016" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 155993D31D6EBB9B00E8BA7E;
+			productRefGroup = 155993DD1D6EBB9B00E8BA7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				155993DB1D6EBB9B00E8BA7E /* Taper-2016 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		155993DA1D6EBB9B00E8BA7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				155993EA1D6EBB9C00E8BA7E /* LaunchScreen.storyboard in Resources */,
+				155993E71D6EBB9C00E8BA7E /* Assets.xcassets in Resources */,
+				155993E51D6EBB9C00E8BA7E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		155993D81D6EBB9B00E8BA7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				155993E21D6EBB9C00E8BA7E /* ViewController.swift in Sources */,
+				155993E01D6EBB9C00E8BA7E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		155993E31D6EBB9C00E8BA7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				155993E41D6EBB9C00E8BA7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		155993E81D6EBB9C00E8BA7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				155993E91D6EBB9C00E8BA7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		155993EC1D6EBB9C00E8BA7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		155993ED1D6EBB9C00E8BA7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		155993EF1D6EBB9C00E8BA7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Taper-2016/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FairSkiesTechnologies.Taper-2016";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		155993F01D6EBB9C00E8BA7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Taper-2016/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FairSkiesTechnologies.Taper-2016";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		155993D71D6EBB9B00E8BA7E /* Build configuration list for PBXProject "Taper-2016" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				155993EC1D6EBB9C00E8BA7E /* Debug */,
+				155993ED1D6EBB9C00E8BA7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		155993EE1D6EBB9C00E8BA7E /* Build configuration list for PBXNativeTarget "Taper-2016" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				155993EF1D6EBB9C00E8BA7E /* Debug */,
+				155993F01D6EBB9C00E8BA7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 155993D41D6EBB9B00E8BA7E /* Project object */;
+}
