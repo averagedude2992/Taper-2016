@@ -38,17 +38,21 @@ class ViewController: UIViewController {
             maxTaps = Int(howManyTapsTxt.text!)!
             currentTaps = 0
             
-            tapsLbl.text = "\(currentTaps) Taps"
+            updateTapsLbl()
             
         }
     }
     
     @ IBAction func onCoinBtnPressed(sender: UIButton!) {
         
-        
+        currentTaps += 1
+        updateTapsLbl()
         
     }
     
+    func updateTapsLbl() {
+        tapsLbl.text = "\(currentTaps) Taps"
+    }
 
 }
 
