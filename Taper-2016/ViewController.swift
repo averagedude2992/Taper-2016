@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     
     
-    @ IBOutlet weak var logoImgView: UIImageView!
+    @ IBOutlet weak var logoImg: UIImageView!
     @ IBOutlet weak var howManyTapsText: UITextField!
     @ IBOutlet weak var playBtn: UIButton!
     
