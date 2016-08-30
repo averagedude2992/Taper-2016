@@ -24,6 +24,18 @@ class ViewController: UIViewController {
     @ IBOutlet weak var tapBtn: UIButton!
     @ IBOutlet weak var tapsLbl: UILabel!
     
+    @ IBAction func onCoinBtnPressed(sender: UIButton!) {
+        
+        currentTaps += 1
+        updateTapsLbl()
+        
+        if isGameOver() {
+            restartGame()
+        }
+        
+    }
+    
+    
     @ IBAction func onPlayButtonPressed(sender: UIButton!) {
         
         if howManyTapsTxt.text != nil && howManyTapsTxt.text != "" {
@@ -43,13 +55,29 @@ class ViewController: UIViewController {
         }
     }
     
-    @ IBAction func onCoinBtnPressed(sender: UIButton!) {
+    func restartGame() {
         
-        currentTaps += 1
-        updateTapsLbl()
+        maxTaps = 0
+        howManyTapsTxt.text = ""
         
+        
+        logoImg.hidden = false
+        playBtn.hidden = false
+        howManyTapsTxt.hidden = false
+        
+        tapBtn.hidden = true
+        tapsLbl.hidden = true
     }
     
+    func isGameOver() -> Bool {
+        if currentTaps >= maxTaps {
+            return true
+        } else {
+            return false
+        }
+    }
+    
+    //DRY (do not repeate yourself coding prenciple//
     func updateTapsLbl() {
         tapsLbl.text = "\(currentTaps) Taps"
     }
